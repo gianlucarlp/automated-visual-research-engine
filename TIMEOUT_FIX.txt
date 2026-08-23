@@ -1,0 +1,19 @@
+CORREÇÃO DO TIMEOUT OPENAI
+
+ANTES:
+20 cenas → 1 request → timeout 120s → TODO PROJETO PARA.
+
+AGORA:
+6 cenas → request
+  se timeout → retry
+  se timeout → retry
+  se timeout → retry
+  se timeout → fallback local
+→ continua para próximo lote
+
+Além disso:
+- timeout de leitura = 180s
+- cache de lotes concluídos
+- retomada automática na próxima execução
+- gpt-5.4-mini como padrão rápido
+- gpt-5.6 disponível na interface

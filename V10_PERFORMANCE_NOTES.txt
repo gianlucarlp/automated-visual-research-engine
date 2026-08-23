@@ -1,0 +1,18 @@
+V10 PERFORMANCE
+
+MODO RECOMENDADO:
+ECONOMY MODE = ON
+SMART CUT = FAST
+
+Se quiser velocidade máxima:
+SMART CUT = CENTER
+
+CENTER NÃO procura o "melhor" trecho por movimento.
+Ele pega a região central do vídeo, que normalmente evita introduções/fades.
+
+JANELAS PRETAS:
+Corrigidas via CREATE_NO_WINDOW + STARTUPINFO no Windows.
+
+API:
+4 queries principais + 2 fallback por cena.
+Cache de IA permanece ativado.

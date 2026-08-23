@@ -1,0 +1,1 @@
+Foco da V11: anti-repetição + contexto + query ladder + confidence + diversidade, preservando velocidade.

@@ -1,0 +1,29 @@
+PASSO A PASSO - V8 PORTABLE FFMPEG
+
+1. Baixe uma versão Windows pronta do FFmpeg.
+2. Extraia o ZIP.
+3. Entre na pasta bin da versão baixada.
+4. Copie:
+   ffmpeg.exe
+   ffprobe.exe
+5. Cole os dois arquivos em:
+   bin\
+   dentro deste projeto.
+6. Execute:
+   build_and_run.bat
+
+Pronto.
+
+Você NÃO precisa:
+- instalar FFmpeg;
+- alterar PATH;
+- usar administrador;
+- mexer nas variáveis do Windows.
+
+Após o build, a pasta final deve ser:
+
+dist\
+  SRT_Documentary_Media_Mapper_V8_PORTABLE_FFMPEG.exe
+  bin\
+    ffmpeg.exe
+    ffprobe.exe

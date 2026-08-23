@@ -1,0 +1,18 @@
+SMART CUT V7
+
+O algoritmo não pega mais automaticamente os primeiros segundos do vídeo.
+
+Ele testa múltiplas janelas possíveis e dá notas para:
+1. movimento visual;
+2. brilho/exposição;
+3. quantidade moderada de mudanças de cena;
+4. distância de possíveis fades no começo/fim;
+5. posição dentro do clipe.
+
+Depois corta o melhor trecho respeitando exatamente a duração do SRT.
+
+Exemplo:
+SRT: 4,27 s
+Vídeo original: 21,00 s
+Trecho escolhido: 8,42 s → 12,69 s
+Arquivo final: 4,27 s

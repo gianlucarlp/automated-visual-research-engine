@@ -1,0 +1,20 @@
+FFMPEG É NECESSÁRIO PARA A V6
+
+A V6 ajusta cada arquivo exatamente à duração da cena do SRT.
+
+Exemplo:
+SRT = 3,460 s
+Vídeo encontrado = 8,000 s
+Saída = 3,460 s
+
+Imagens também são convertidas em MP4 com exatamente a duração da cena.
+
+No Windows, instale o FFmpeg e certifique-se de que `ffmpeg` e `ffprobe`
+estejam disponíveis no PATH.
+
+Teste no Prompt de Comando:
+
+ffmpeg -version
+ffprobe -version
+
+Depois abra o aplicativo novamente.
